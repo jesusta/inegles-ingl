@@ -1,6 +1,25 @@
 <html>
 
    <head>
+	   <script>
+        window.sagicc_chat_config = {
+            back_url: "https://technisupport.sagicc.co",
+            chat_token: "bc8815bb8556622e0c832af15c9341b3",
+            chat_type: "widget",
+            client_first_name: "",
+            client_last_name: "",
+            client_email: "",
+            auto_initialize: false
+        };
+
+        var sagicc_chat_isSecured = (window.location && window.location.protocol == "https:");
+        var sagicc_chat_runtime_js = document.createElement("script");
+        sagicc_chat_runtime_js.setAttribute("src", "https://static.sagicc.co/chat/v2/static/js/runtime~sagicc-chat-v2.js");
+        document.body.appendChild(sagicc_chat_runtime_js);
+        var sagicc_chat_js = document.createElement("script");
+        sagicc_chat_js.setAttribute("src", "https://static.sagicc.co/chat/v2/static/js/sagicc-chat-v2.js");
+        document.body.appendChild(sagicc_chat_js);
+    </script>
    
     <title>ingles de la casa</title>
 	
